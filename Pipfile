@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+tensorflow = "<2.11"
+torch = "*"
+requests = "*"
+graphviz = "*"
+torchviz = "*"
+kaggle = "*"
+flask = "*"
+flask-sqlalchemy = "==2.5.1"
+pandas = "*"
+matplotlib = "*"
+scikit-learn = "*"
+torchvision = "*"
+pyspark = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.7"
